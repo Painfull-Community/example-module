@@ -1,5 +1,10 @@
 module.exports = {
     execute: function (args, message) {
         message.channel.send(`Hi, ${message.author}. ${args[0] ? args[0] : "Try adding an argument!"}`)
+    },
+    registerEventHandlers: function (bot) {
+        bot.addListener("on_reaction", function (message){
+            message.channel.send("Someone reacted!") //please for the love of god dont do this in a real use case!
+        })
     }
 }
