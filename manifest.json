@@ -1,0 +1,6 @@
+{
+    "name": "Example Module",
+    "version": "1.0.0",
+    "author": "Skelly & Vukky",
+    "entrypoint": "src/index.js"
+}
