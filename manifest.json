@@ -4,5 +4,11 @@
     "author": "Skelly & Vukky",
     "entrypoints": {
         "testcommand": "src/index.js"
+    },
+    "apis": {
+        "example_api": "src/api.js"
+    },
+    "module_dependencies": {
+        "nonexistent_module": "^1.0.0"
     }
 }

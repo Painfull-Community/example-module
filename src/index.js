@@ -4,7 +4,7 @@ module.exports = {
     },
     registerEventHandlers: function (bot) {
         bot.addListener("on_reaction", function (message){
-            message.channel.send("Someone reacted!") //please for the love of god dont do this in a real use case!
+            message.channel.send("Someone reacted!") //please for the love of god dont do this in a real use case
         })
     }
 }
