@@ -1,5 +1,5 @@
 module.exports = {
-    execute: function (args, message) {
+    execute: function (message, args) {
         message.channel.send(`Hi, ${message.author}. ${args[0] ? args[0] : "Try adding an argument!"}`)
     },
     registerEventHandlers: function (bot) {
