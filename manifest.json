@@ -11,6 +11,7 @@
     "apis": {
         "example_api": "src/api.js"
     },
+    "eventHandlers": ["messageReactionAdd"],
     "module_dependencies": {
         "nonexistent_module": "^1.0.0",
         "@LITdevs/nonexistent_unverified_module": "^1.0.0",

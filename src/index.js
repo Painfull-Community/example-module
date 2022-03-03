@@ -3,7 +3,7 @@ module.exports = {
         message.channel.send(`Hi, ${message.author}. ${args[0] ? "Cool argument!" : "Try adding an argument!"}`)
     },
     registerEventHandlers: function (bot) {
-        bot.addListener("on_reaction", function (message){
+        bot.addListener("messageReactionAdd", function (message){
             message.channel.send("Someone reacted!") //please for the love of god dont do this in a real use case
         })
     }
